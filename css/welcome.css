@@ -1,0 +1,74 @@
+*{
+	margin:0px;
+    padding:0px;
+	}
+div{
+	width:1500px;
+	margin:auto;	
+	}
+body{ background:#ffffff;}
+#content{
+	height: 864px;
+}
+#name{
+	width: 700px;
+	height:100px;
+	position: relative;
+	top: 140px;
+	left: -300px;
+}
+#name p{
+	font-size: 90px;
+	font-family: 黑体;
+	line-height:90px;
+	text-align:center;
+	font-weight:bold;
+	color: #1B2754;
+}
+#tishi{
+	border-radius: 15px;
+	width: 200px;
+	height: 70px;
+	background-color: #D994AB;
+	position: relative;
+	top: 170px;
+	left:-485px;
+}
+#tishi a{
+	text-decoration: none;
+}
+#tishi p{
+	font-size: 25px;
+	font-family: 黑体;
+	line-height:70px;
+	text-align:center;
+	font-weight:bold;
+	color:#FEEFE1;
+}
+#tishi p:hover{
+				animation: moveone 1s infinite;
+				-webkit-animation: moveone 1s infinite;
+				-webkit-animation-fill-mode: forwards;
+			}
+			@keyframes moveone{
+				0%{color: #FEEFE1;
+				transform: translateY(4px);}
+				50%{color:#1B2754;
+				transform: translateY(-4px);
+				}
+				100%{color: #FEEFE1;
+				transform: translateY(0px);
+				}}
+			@-webkit-keyframes moveone{
+				0%{color: #FEEFE1;
+				transform: translateY(5px);}
+				50%{color:#1B2754;
+				transform: translateY(-5px);
+				}
+				100%{color:#FEEFE1;
+				transform: translateY(0px);
+				}	
+#tishi p:visited{
+	color: #FEEFE1; ;
+}
+

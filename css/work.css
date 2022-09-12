@@ -1,0 +1,174 @@
+*{
+	margin:0px;
+    padding:0px;
+	}
+div{
+	width:1500px;
+	margin:auto;	
+	}
+body{ background:#ffffff;}
+#header{
+	height: 70px;
+	background-color: #1B2754;
+}
+#header p{
+	font-size: 25px;
+	font-family: 黑体;
+	line-height:65px;
+	text-align:center;
+	font-weight:bold;
+	color:#ffffff;
+}
+#dao1{
+	margin-left: 825px;
+}
+#dao1,#dao2,#dao3,#dao4,#dao5{
+	width: 100px;
+	height: 60px;
+	display: inline-block;
+}
+#header p:hover{
+				animation: moveone 1s infinite;
+				-webkit-animation: moveone 1s infinite;
+				-webkit-animation-fill-mode: forwards;
+			}
+			@keyframes moveone{
+				0%{color: #FEEFE1;}
+				50%{color:#1B2754;}
+				100%{color: #FEEFE1;}}
+			@-webkit-keyframes moveone{
+				0%{color: #FEEFE1;}
+				50%{color:#1B2754;}
+				100%{color:#FEEFE1;}}
+#dao2 p:hover{
+	text-decoration:underline ;
+}
+#dao3 p:hover{
+	text-decoration: line-through;
+}
+#dao4 p:hover{
+	text-decoration:overline;
+}
+#dao5 p:hover{
+	text-decoration: overline underline; 
+}
+#content{
+		height: 724px;
+		background-image: url(../img/背景4.jpg);
+		}
+#wenzi{
+	width: 80px;
+	height: 724px;
+	float: left;
+	margin-left: 50px;
+}
+#wenzi p{
+	font-size: 60px;
+	font-family: 黑体;
+	color: #1B2754;
+}	
+#wenzi1{
+	width: 1300px;
+	height: 724px;
+	float: right;
+	margin-right: 50px;
+}
+#an{
+	height: 300px;
+}
+#d{
+	display: inline-block;
+	width:150px;
+	height: 50px;
+	border: 1px solid #1B2754;
+	margin-right: 10px;
+	position: relative;
+	top: 40px;
+	left: 120px;
+}
+#d p{
+	font-size: 25px;
+	font-family: 黑体;
+	line-height:55px;
+	text-align:center;
+	color:#1B2754;
+}
+#d:hover{
+	background-color: #D994AB;
+	border: 1px  dashed #1B2754;
+	border-radius: 0px 30px 0px 0px;
+	-webkit-filter:drop-shadow(10px 10px 10px #1B2754);
+	filter:drop-shadow(5px 5px 5px #1B2754);
+}
+#d:visited{
+	background-color: #D994AB;
+	border: 1px  dashed #1B2754;
+}
+#tp{
+	width: 1020px;
+	height:450px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-size: 0;
+	border:20px solid #1B2754;
+	margin-top: -160px;
+	background-color: #1b2754;
+			}
+#tp img{
+	height: 450px;
+}
+#img2{
+	position: relative;
+	left: 28px;
+}
+#img3{
+	float: right;
+}
+#img4{
+	position: relative;
+	left:20px;
+}
+#tp img:hover{
+	    -webkit-filter: blur(2px);
+		filter: blur(2px);
+		
+}
+	
+#fanye ul{
+		background-color: white;
+		height: 25px;
+		width: 500px;
+		list-style-type: none;
+		margin: 20px 0;
+		padding: 10px;
+		position: relative;
+		left:470px;
+	}
+	ul li{
+		float: left;
+		margin-right: 5px;
+	}
+	ul li a{
+		display: block;
+		border: 1px solid black;
+		color: black;
+		padding: 3px 8px;
+		text-decoration: none;
+	}
+	
+	ul li a:hover,ul li.frist a{
+		color: white;
+		background-color:#1B2754;
+		font-weight: bold;
+	}
+#footer{
+	height: 70px;
+	background-color: #1B2754;
+}
+#footer p{
+	      font-size: 25px;
+		  font-family: 黑体;
+	      line-height:65px;
+          text-align:center;
+		  font-weight:bold;
+		  color:#ffffff;}

@@ -1,0 +1,140 @@
+*{
+	margin:0px;
+    padding:0px;
+	}
+div{
+	width:1500px;
+	margin:auto;	
+	}
+body{ background:#ffffff;}
+#header{
+	height: 70px;
+	background-color: #1B2754;
+}
+#header p{
+	font-size: 25px;
+	font-family: 黑体;
+	line-height:65px;
+	text-align:center;
+	font-weight:bold;
+	color:#ffffff;
+}
+#dao1{
+	margin-left: 825px;
+}
+#dao1,#dao2,#dao3,#dao4,#dao5{
+	width: 100px;
+	height: 60px;
+	display: inline-block;
+}
+#header p:hover{
+				animation: moveone 1s infinite;
+				-webkit-animation: moveone 1s infinite;
+				-webkit-animation-fill-mode: forwards;
+			}
+			@keyframes moveone{
+				0%{color: #FEEFE1;}
+				50%{color:#1B2754;}
+				100%{color: #FEEFE1;}}
+			@-webkit-keyframes moveone{
+				0%{color: #FEEFE1;}
+				50%{color:#1B2754;}
+				100%{color:#FEEFE1;}}
+#dao2 p:hover{
+	text-decoration:underline ;
+}
+#dao3 p:hover{
+	text-decoration: line-through;
+}
+#dao4 p:hover{
+	text-decoration:overline;
+}
+#dao5 p:hover{
+	text-decoration: overline underline; 
+}
+#content{
+					height: 724px;
+					background-image: url(../img/背景3.jpg);
+				}
+#wenzi{
+	width: 100px;
+	height: 724px;
+	float: left;
+	margin-left: 50px;
+}
+#wenzi p{
+	font-size: 60px;
+	font-family: 黑体;
+	color: #1B2754;
+}	
+#wenzi1{
+	width: 1200px;
+	height: 724px;
+	float: right;
+	margin-right: 100px;
+	text-align: left;
+}
+#ji1,#ji2,#ji3,#ji4,#ji5,#ji6{
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	background-color: #1B2754;
+	text-align: center;
+	line-height: 120px;
+	position: relative;
+	top: 40px;
+	left: -400px;
+}
+#ji2{
+	top: 150px;
+	left: -520px;
+}
+#ji3,#ji4{
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	line-height: 150px;
+	top: 280px;
+}
+#ji4{
+	top: 180px;
+	left: 80px;
+}
+#ji5{
+	left: 500px;
+	top: -150px;
+}
+#ji6{
+	top: -520px;
+	left: -100px;
+}
+#ji1 p,#ji2 p,#ji3 p,#ji4 p,#ji5 p,#ji6 p
+{
+		font-size: 50px;
+		color: #ffffff;
+		font-family: 黑体;
+}
+#ji1:hover,#ji2:hover,#ji3:hover,#ji4:hover,#ji5:hover,#ji6:hover{
+				animation: moveone1 1s infinite;
+				-webkit-animation: moveone1 1s infinite;
+				-webkit-animation-fill-mode: forwards;
+			}
+			@keyframes moveone1{
+				0%{transform: translateY(4px);}
+				50%{transform: translateY(-4px);}
+				100%{transform: translateY(0px);}}
+			@-webkit-keyframes moveone1{
+				0%{transform: translateY(5px);}
+				50%{transform: translateY(-5px);}
+				100%{transform: translateY(0px);}}
+#footer{
+	height: 70px;
+	background-color: #1B2754;
+}
+#footer p{
+	      font-size: 25px;
+		  font-family: 黑体;
+	      line-height:65px;
+          text-align:center;
+		  font-weight:bold;
+		  color:#ffffff;}

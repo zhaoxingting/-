@@ -1,0 +1,97 @@
+*{
+	margin:0px;
+    padding:0px;
+	}
+div{
+	width:1500px;
+	margin:auto;	
+	}
+body{ background:#ffffff;}
+#header{
+	height: 70px;
+	background-color: #1B2754;
+}
+#header p{
+	font-size: 25px;
+	font-family: 黑体;
+	line-height:65px;
+	text-align:center;
+	font-weight:bold;
+	color:#ffffff;
+}
+#dao1{
+	margin-left: 825px;
+}
+#dao1,#dao2,#dao3,#dao4,#dao5{
+	width: 100px;
+	height: 60px;
+	display: inline-block;
+}
+#header p:hover{
+				animation: moveone 1s infinite;
+				-webkit-animation: moveone 1s infinite;
+				-webkit-animation-fill-mode: forwards;
+			}
+			@keyframes moveone{
+				0%{color: #FEEFE1;}
+				50%{color:#1B2754;}
+				100%{color: #FEEFE1;}}
+			@-webkit-keyframes moveone{
+				0%{color: #FEEFE1;}
+				50%{color:#1B2754;}
+				100%{color:#FEEFE1;}}
+#dao2 p:hover{
+	text-decoration:underline ;
+}
+#dao3 p:hover{
+	text-decoration: line-through;
+}
+#dao4 p:hover{
+	text-decoration:overline;
+}
+#dao5 p:hover{
+	text-decoration: overline underline; 
+}
+#content{
+	height: 724px;
+	background-image: url(../img/背景2.jpg);
+}
+#wenzi{
+	width: 100px;
+	height: 724px;
+	float: left;
+	margin-left: 50px;
+}
+#wenzi p{
+	font-size: 60px;
+	font-family: 黑体;
+	color: #1B2754;
+}
+#wenzi1{
+	width: 500px;
+	height: 724px;
+	float: right;
+	margin-right: 100px;
+	text-align: left;
+}
+#wenzi1 p{
+	margin-top: 100px;
+	font-size: 30px;
+	color: #1B2754;
+	font-family: 黑体;
+}
+#footer{
+	height: 70px;
+	background-color: #1B2754;
+}
+#footer{
+	height: 70px;
+	background-color: #1B2754;
+}
+#footer p{
+	      font-size: 25px;
+		  font-family: 黑体;
+	      line-height:65px;
+          text-align:center;
+		  font-weight:bold;
+		  color:#ffffff;}
